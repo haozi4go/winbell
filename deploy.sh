@@ -17,7 +17,7 @@ git add -A
 git commit -am "deploy"
 
 # 提交到 master 分支
-git push -f https://${username}:${pass}@e.coding.net/haozi4go/winbell.git master
+git push -f https://${username}:${pass}@e.coding.net/haozi4go/winbell/winbell-website.git master
 
 # 退出命令
 exit 0
