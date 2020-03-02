@@ -3,14 +3,11 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 安装vuepress
-yarn global add vuepress
-
 # 生成静态文件
 yarn build
 
 # 切到静态文件目录
-cd docs/dist
+cd docs/.vuepress/dist
 
 # 静态文件全部提交
 git init
