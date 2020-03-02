@@ -20,7 +20,7 @@ git commit -am "deploy"
 git remote add origin https://e.coding.net/haozi4go/winbell.git
 
 # 提交到 master 分支
-git push origin master
+git push origin master -f
 
 # 退出命令
 exit 0
