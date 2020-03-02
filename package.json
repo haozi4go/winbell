@@ -6,8 +6,11 @@
   "author": "浩子淘天下",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --no-cache --no-clear-screen",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.3.1"
   }
 }

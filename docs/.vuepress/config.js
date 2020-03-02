@@ -17,5 +17,11 @@ module.exports = {
       {text: '主页', link: '/'},
       {text: '发送消息', link: '/send/'}, // 根路径指docs目录，guide后面加一个 / 表示guide是一个目录，会自动读取其下的 CORE 2 文件展示到页面
     ],
-  }
+  },
+  plugins: [
+    '@vuepress/google-analytics',
+      {
+        'ga': 'UA-159325073-1'
+      }
+  ]
 }
