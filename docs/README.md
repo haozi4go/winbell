@@ -10,4 +10,4 @@ features:
   details: 通过小程序『小窗铃』可以查看历史消息
 footer: MIT Licensed | Copyright © 2019-2020 浩子淘天下@窗纸儿吧
 ---
-![An image](/images/winbell-mp-white.png)
+<p style="text-align: center;">![](/images/winbell-mp-white.png)</p>

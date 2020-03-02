@@ -11,16 +11,13 @@ cd docs/.vuepress/dist
 
 # 静态文件全部提交
 git init
-git add *
+git add -A
 
 # 提交到历史区，$1 为运行 sh 时的第一个参数
 git commit -am "deploy"
 
-# 设置远程仓库
-git remote add origin https://e.coding.net/haozi4go/winbell.git
-
 # 提交到 master 分支
-git push origin master -f
+git push -f https://${username}:${pass}@e.coding.net/haozi4go/winbell.git master
 
 # 退出命令
 exit 0
