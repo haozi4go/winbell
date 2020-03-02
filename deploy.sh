@@ -3,6 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 安装vuepress
+yarn global add vuepress
+
 # 生成静态文件
 yarn build
 
