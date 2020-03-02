@@ -1,0 +1,12 @@
+{
+  "name": "winbell",
+  "version": "1.0.0",
+  "description": "winbell website",
+  "main": "index.js",
+  "author": "浩子淘天下",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
